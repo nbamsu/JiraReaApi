@@ -47,7 +47,8 @@ public class PayloadUtil {
                 "}";
     }
 
-
+//* used to get a dynamic payload with name and job
+    *//
     public static String getUserPayload(String name, String job){
         return "{\n" +
                 "    \"name\": \"" + name +" \",\n" +
